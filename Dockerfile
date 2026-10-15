@@ -1,4 +1,4 @@
-FROM node:22-bookworm-slim
+FROM node:24-bookworm-slim
 
 # Install tools for agents (git, curl, wget, python, etc.)
 RUN apt-get update && apt-get install -y \
